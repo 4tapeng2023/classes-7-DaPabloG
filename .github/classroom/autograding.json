@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "testing",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_xml_file_processor.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
